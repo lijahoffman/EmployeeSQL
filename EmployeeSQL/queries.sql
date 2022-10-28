@@ -9,3 +9,9 @@ SELECT first_name, last_name, sex
 FROM employees 
 WHERE first_name = 'Hercules' 
 AND last_name LIKE 'B%';
+
+-- List the frequency count of employee last names (i.e., how many employees share each last name) in descending order.
+SELECT last_name, COUNT(last_name)
+FROM employees
+GROUP BY last_name
+ORDER BY count DESC;
