@@ -38,4 +38,3 @@ CREATE TABLE titles (
 	title VARCHAR NOT NULL
 );
 
-SELECT * FROM departments
