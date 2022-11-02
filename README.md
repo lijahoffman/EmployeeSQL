@@ -1,4 +1,4 @@
-# sql-challenge
+# EmployeeSQL
 
 #### tables.sql 
 
@@ -16,6 +16,10 @@ Joins tables to return the following information:
 6. Employee number, last name, first name, and department name for all employees in the Sales department. 
 7. Employee number, last name, first name, and department name for all employees in the Sales and Development departments. 
 8. The frequency count of employee last names in descending order. 
+
+
+#### employee_erd.jpg
+Entity Relationship Diagram for tables in tables.sql.  
 
 
 
