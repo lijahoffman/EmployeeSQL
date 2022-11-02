@@ -1,10 +1,11 @@
 # sql-challenge
 
-### tables.sql 
+#### tables.sql 
 
 Imports each attached CSV file into a corresponding SQL table. 
 
-### queries.sql 
+
+#### queries.sql 
 
 Joins tables to return the following information: 
 1. Employee number, last name, first name, sex, and salary.
@@ -15,6 +16,8 @@ Joins tables to return the following information:
 6. Employee number, last name, first name, and department name for all employees in the Sales department. 
 7. Employee number, last name, first name, and department name for all employees in the Sales and Development departments. 
 8. The frequency count of employee last names in descending order. 
+
+
 
 
 ### Technologies 
