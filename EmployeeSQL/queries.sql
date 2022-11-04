@@ -6,9 +6,9 @@ INNER JOIN salaries on employees.emp_no = salaries.emp_no;
 
 
 -- The first name, last name, and hire date for employees who were hired in 1986.
-SELECT first_name, last_name, birth_date
+SELECT first_name, last_name, hire_date
 FROM employees 
-WHERE hire_date LIKE '%1986';
+WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31';
 
 
 
