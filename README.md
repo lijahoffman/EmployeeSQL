@@ -1,13 +1,21 @@
 # EmployeeSQL
 
-#### tables.sql 
+## Summary
+Performs data modeling, data engineering, and data analysis using six CSV files containing data on employees from the 1980s and 1990s found in data folder. 
 
-Imports each attached CSV file into a corresponding SQL table. 
+
+## Data Modeling
+CSVs inspected and used to create below Entity Relationship Diagram (ERD). 
+
+![alt text](employee_erd.jpg?raw=True)
 
 
-#### queries.sql 
+## Data Engineering
+Data used to create a table schema for each CSV file, specifying data types, primary keys, foreign keys, and other constraints. 
+Each CSV file imported into the corresponding SQL table. 
 
-Joins tables to return the following information: 
+## Data Analysis 
+Tables joined to return the following information: 
 1. Employee number, last name, first name, sex, and salary.
 2. First name, last name, and hire data for employees who were hired in 1986.
 3. Department number; department name; and the manager's employee number, last name, and first name. 
@@ -18,11 +26,5 @@ Joins tables to return the following information:
 8. The frequency count of employee last names in descending order. 
 
 
-#### employee_erd.jpg
-Entity Relationship Diagram for tables in tables.sql.  
-
-
-
-
-### Technologies 
+## Technologies Used
 SQL, PostgresSQL
